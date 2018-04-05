@@ -1,0 +1,9 @@
+h1 {
+	color: white;
+}
+
+body {
+	background-image: url("mainbg.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
