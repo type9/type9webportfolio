@@ -11,7 +11,7 @@ $(document).ready(function(){
 	});
 	//Nav bar extend
 	$(".backbutton").click(function() {
-		$("#defaultnav").animate({paddingLeft: "10%", width: "100%"}, 200, "linear");
+		$("#defaultnav").animate({paddingLeft: "5%", width: "100%"}, 200, "linear");
 		$(".navbutton").animate({marginLeft: "9%"}, 200, "linear");
 		$(".navbutton").show();
 		$(this).hide();

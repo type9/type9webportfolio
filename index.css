@@ -71,8 +71,20 @@ div.navbutton:hover {
 	cursor: pointer;
 }
 
-/* Repeated CSS For Other Navs */
-.ARTWORKbutton {
+/* Style for Sliding Sub-navs */
+.navslide {
+	background-color: none;
+	margin: 0 0 0 550px;
+	width: 90%;
+	height: 100%;
+	transform: skew(25deg, 0deg);
+  	transform-origin: 0%;
+  	padding-left:0%;
+  	padding-top: 0.75%;
+  	position: fixed;
+  	display: none;
+}
+.slidebutton {
 	z-index:2;
 	margin-left: 9%;
 	float:left;
@@ -87,148 +99,15 @@ div.navbutton:hover {
 	transition: 0.3s;
 	display: none;
 }
-
-div.ARTWORKbutton:active {
+div.slidebutton:active {
 	border-color: white;
 	cursor: pointer;
 }
 
-div.ARTWORKbutton:hover {
+div.slidebutton:hover {
 	border-color: #990000;
 	cursor: pointer;
 }
-
-#ARTWORKnav {
-	background-color: none;
-	margin: 0 0 0 550px;
-	width: 90%;
-	height: 100%;
-	transform: skew(25deg, 0deg);
-  	transform-origin: 0%;
-  	padding-left:0%;
-  	padding-top: 0.75%;
-  	position: fixed;
-  	display: none;
-}
-
-.PROJECTSbutton {
-	z-index:2;
-	margin-left: 9%;
-	float:left;
-	width: auto;
-	transform: skew(-25deg, 0deg);
-	color: #990000;
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-size: 23px;
-	border-bottom-style: solid;
-	border-color: rgb(254, 255, 247, 0);
-	border-width: 2px;
-	transition: 0.3s;
-	display: none;
-}
-
-div.PROJECTSbutton:active {
-	border-color: white;
-	cursor: pointer;
-}
-
-div.PROJECTSbutton:hover {
-	border-color: #990000;
-	cursor: pointer;
-}
-
-#PROJECTSnav {
-	background-color: none;
-	margin: 0 0 0 550px;
-	width: 90%;
-	height: 100%;
-	transform: skew(25deg, 0deg);
-  	transform-origin: 0%;
-  	padding-left:0%;
-  	padding-top: 0.75%;
-  	position: fixed;
-  	display: none;
-}
-
-.ABOUTbutton {
-	z-index:2;
-	margin-left: 9%;
-	float:left;
-	width: auto;
-	transform: skew(-25deg, 0deg);
-	color: #990000;
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-size: 23px;
-	border-bottom-style: solid;
-	border-color: rgb(254, 255, 247, 0);
-	border-width: 2px;
-	transition: 0.3s;
-	display: none;
-}
-
-div.ABOUTbutton:active {
-	border-color: white;
-	cursor: pointer;
-}
-
-div.ABOUTbutton:hover {
-	border-color: #990000;
-	cursor: pointer;
-}
-
-#ABOUTnav {
-	background-color: none;
-	margin: 0 0 0 550px;
-	width: 90%;
-	height: 100%;
-	transform: skew(25deg, 0deg);
-  	transform-origin: 0%;
-  	padding-left:0%;
-  	padding-top: 0.75%;
-  	position: fixed;
-  	display: none;
-}
-
-.CONTACTbutton {
-	z-index:2;
-	margin-left: 9%;
-	float:left;
-	width: auto;
-	transform: skew(-25deg, 0deg);
-	color: #990000;
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-size: 23px;
-	border-bottom-style: solid;
-	border-color: rgb(254, 255, 247, 0);
-	border-width: 2px;
-	transition: 0.3s;
-	display: none;
-}
-
-div.CONTACTbutton:active {
-	border-color: white;
-	cursor: pointer;
-}
-
-div.CONTACTbutton:hover {
-	border-color: #990000;
-	cursor: pointer;
-}
-
-#CONTACTnav {
-	background-color: none;
-	margin: 0 0 0 550px;
-	width: 90%;
-	height: 100%;
-	transform: skew(25deg, 0deg);
-  	transform-origin: 0%;
-  	padding-left:0%;
-  	padding-top: 0.75%;
-  	position: fixed;
-  	display: none;
-}
-
-/* END Nav Elements */
 
 .logo {
 	z-index: 2;
