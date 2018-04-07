@@ -1,6 +1,7 @@
 html {
 	height: 100%;
 	width: 100%;
+	display:absolute;
 }
 
 body {
@@ -21,6 +22,24 @@ body {
 	position: relative;
 }
 
+/* Page Elements */
+
+#defaultpage {
+	z-index: 1;
+	height:100%;
+	width:100%;
+	position:fixed;
+}
+
+.subpage {
+	background-color: #1a1a1a;
+	display: none;
+	margin-left:56px;
+	height: 100%;
+	width: 0%;
+	transform: skew(35deg, 0deg);
+}
+
 /* Nav Elements */
 
 nav {
@@ -36,10 +55,10 @@ nav {
 
 #defaultnav {
 	background-color: #990000;
-	margin: 0 0 0 400px;
+	margin: 0 0 0 500px;
 	width: 100%;
 	height: 100%;
-	transform: skew(25deg, 0deg);
+	transform: skew(35deg, 0deg);
   	transform-origin: 0%;
   	padding-left:5%;
   	padding-top: 0.75%;
@@ -49,7 +68,7 @@ nav {
 .navbutton {
 	z-index:2;
 	margin-left: 9%;
-	transform: skew(-25deg, 0deg);
+	transform: skew(-35deg, 0deg);
 	color: white;
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-size: 23px;
@@ -74,10 +93,10 @@ div.navbutton:hover {
 /* Style for Sliding Sub-navs */
 .navslide {
 	background-color: none;
-	margin: 0 0 0 550px;
+	margin: 0 0 0 650px;
 	width: 90%;
 	height: 100%;
-	transform: skew(25deg, 0deg);
+	transform: skew(35deg, 0deg);
   	transform-origin: 0%;
   	padding-left:0%;
   	padding-top: 0.75%;
@@ -89,7 +108,7 @@ div.navbutton:hover {
 	margin-left: 9%;
 	float:left;
 	width: auto;
-	transform: skew(-25deg, 0deg);
+	transform: skew(-35deg, 0deg);
 	color: #990000;
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-size: 23px;
